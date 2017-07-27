@@ -33,5 +33,11 @@ namespace GitAppDemo.Controllers
 
             return View();
         }
+        public ActionResult BhushanActionMethod()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
