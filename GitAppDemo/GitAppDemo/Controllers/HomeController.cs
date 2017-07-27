@@ -39,5 +39,11 @@ namespace GitAppDemo.Controllers
 
             return View();
         }
+        public ActionResult FetchMethodTesting()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
