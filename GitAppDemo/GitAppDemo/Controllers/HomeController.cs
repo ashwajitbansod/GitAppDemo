@@ -26,5 +26,12 @@ namespace GitAppDemo.Controllers
 
             return View();
         }
+
+        public ActionResult CreateContact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
